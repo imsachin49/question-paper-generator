@@ -17,7 +17,6 @@ To run this application, you need to have [Node.js](https://nodejs.org/) install
    ```bash
    git clone https://github.com/imsachin49/question-paper-generator.git
 
-
 2. Navigate to the project directory:
     ```bash
     cd question-paper-generator
