@@ -47,14 +47,12 @@ $ node index.js
 You can customize the question paper generation by modifying the configuration in the `index.js` file. Adjust the `totalMarks` and `difficultyDistribution` according to your requirements.
 
 ```bash
-$
-{
+$ {
   "totalMarks": 100,
   "difficultyDistribution": {
     "Easy": 20,
     "Medium": 40,
     "Hard": 40
-  }
 }
 
 
