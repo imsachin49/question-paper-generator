@@ -10,5 +10,5 @@ const difficultyDistribution = [
 ];
 
 const questionPaper = generateQuestionPaper(totalMarks, difficultyDistribution, Questions);
-console.log('Generated Question Paper:');
-console.log(questionPaper.length);
+console.log("Here is Your Question Paper:-")
+console.log(questionPaper);
