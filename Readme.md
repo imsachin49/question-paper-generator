@@ -37,11 +37,26 @@ To run this application, you need to have [Node.js](https://nodejs.org/) install
 ## Usage
 
 To generate a question paper, run the following command:
-node index.js
+
+```bash
+$ node index.js
+
 
 ## Configuration
 
-You can customize the question paper generation by modifying the configuration in the index.js file. Adjust the totalMarks and difficultyDistribution according to your requirements.
+You can customize the question paper generation by modifying the configuration in the `index.js` file. Adjust the `totalMarks` and `difficultyDistribution` according to your requirements.
+
+```bash
+$
+{
+  "totalMarks": 100,
+  "difficultyDistribution": {
+    "Easy": 20,
+    "Medium": 40,
+    "Hard": 40
+  }
+}
+
 
 ## Sample Data
 
